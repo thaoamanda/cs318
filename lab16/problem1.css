@@ -1,0 +1,87 @@
+* {
+    background-color: black;
+    color: white;
+}
+.recred {
+    width: 70px; 
+    height: 15px;
+    background-color: #FF0000;
+}
+.square {
+    width: 120px;
+    height: 120px;
+    background: #FFFFFF;
+}
+.circle {
+    width: 120px;
+    height: 120px;
+    background: #FFFFFF;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+}
+.red {
+    background: red;
+    margin: 5px;
+    width: 100px; 
+}
+.orange {
+    background: orange;
+    margin: 5px;
+    width: 100px; 
+}
+.yellow {
+    background: yellow;
+    margin: 5px;
+    width: 100px; 
+}
+.green {
+    background: green;
+    margin: 5px;
+    width: 100px; 
+}
+.blue {
+    background: blue;
+    margin: 5px;
+    width: 100px; 
+}
+.square1 {
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-width: 10px;
+    background: #000000;
+    border-top-color: white;
+    border-right-color: dimgray;
+    border-bottom-color: dimgray;
+    border-left-color: dimgray;
+}
+.square2 {
+    width: 100px;
+    height: 100px;
+    background: #000000;
+    border-style: solid;
+    border-width: 10px;
+    border-top-color: white;
+    border-right-color: dimgray;
+    border-bottom-color: white;
+    border-left-color: dimgray;
+}
+.square3 {
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-width: 10px;
+    background: #000000;
+    border-top-color: white;
+    border-right-color: white;
+    border-bottom-color: white;
+    border-left-color: dimgray;
+}
+.square4 {
+    width: 100px;
+    height: 100px;
+    background: #000000;
+    border-style: solid;
+    border-width: 10px; 
+}
