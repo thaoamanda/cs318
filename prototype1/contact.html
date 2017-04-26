@@ -18,14 +18,14 @@
     <div class="form"><form action="https://formspree.io/thaoa@uwec.edu"
       method="POST">
 <ul class="form2">
-    <li><label>Full Name</label><input type="text" class="fullname" placeholder="First and Last"></li>
+    <li><label>Full Name</label><input type="text" class="fullname" name="name" placeholder="First and Last"></li>
     <li>
         <label>Email</label>
-        <input type="email" class="email" placeholder="email@email.com">
+        <input type="email" class="email" placeholder="email@email.com" name="email">
     </li>
     <li>
         <label>Who are you?</label>
-        <select class="who">
+        <select class="who" name="who">
         <option class="friend">Friend</option>
         <option class="stranger">Stranger</option>
         <option class="employer">Employer</option>
@@ -37,7 +37,7 @@
         <textarea class="message" placeholder="Hello Andee ..."></textarea>
     </li>
     <li>
-        <input type="submit" class="buttonclick" value="Submit">
+        <input type="submit" class="buttonclick" value="Submit" method="post">
     </li>
 </ul>
         </form></div>
