@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 10pt;
+}
+.title {
+    font-family: 'Reenie Beanie', cursive;
+    background-color: white;
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 40pt;
+    padding-top: 20px;
+}
+nav {
+    position: relative;
+    text-align: center;
+    font-size: 10pt;
+    font-family: 'Source Sans Pro', sans-serif;
+    word-spacing: 12px;
+    padding-bottom: 10px;
+}
+#albright {
+    width: 40em;
+    height: 40em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    
+}
+.text {
+    margin: 0 auto;
+    width: 40em;
+    margin-bottom: 3em;
+    color: dimgrey;
+}
+a {
+    text-decoration: none;
+}
+/* unvisited link */
+a:link {
+    color: black;
+}
+/* visited link */
+a:visited {
+    color: dimgray;
+}
+/* mouse over link */
+a:hover {
+    color: gainsboro;
+}
+@media (max-width: 42em) {
+  body {
+    font-size: 12pt;
+    
+  }
+    #albright {
+        width: 25em;
+        height: 25em;
+    }
+    .text {
+        width: 25em;
+    }
+}

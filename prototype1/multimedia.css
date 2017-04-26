@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: 'Lateef', cursive;
+}
+.title {
+    font-family: 'Reenie Beanie', cursive;
+    background-color: white;
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 40pt;
+    padding-top: 20px;
+}
+nav {
+    position: relative;
+    text-align: center;
+    font-size: 10pt;
+    font-family: 'Source Sans Pro', sans-serif;
+    word-spacing: 12px;
+    padding-bottom: 10px;
+}
+img {
+    width: 40%;
+    align-content: center;
+}
+a {
+    text-decoration: none;
+}
+/* unvisited link */
+a:link {
+    color: black;
+}
+/* visited link */
+a:visited {
+    color: dimgray;
+}
+/* mouse over link */
+a:hover {
+    color: gainsboro;
+}
