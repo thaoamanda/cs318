@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <title>Andee Erickson - Contact</title>
+    <link type="text/css" rel="stylesheet" href="css/index.css"><link href="https://fonts.googleapis.com/css?family=IM+Fell+English|Open+Sans|Reenie+Beanie" rel="stylesheet">
+</head>
+<body>
+    <div class="title">Andee Erickson</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="written.html">Written</a>
+        <a href="multimedia.html">Multimedia</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="form">
+        <form action="https://formspree.io/thaoa@uwec.edu"
+      method="POST">
+            <label name="name" class="contactlabel"> Name</label><input type="text" id="fname" name="name" placeholder="name">
+            
+            <label name="email" class="contactlabel">Email</label><input type="email" name="email" placeholder="email ">
+            
+            <label for="relationship" class="contactlabel">Relationship</label>
+                <select id="country" name="country">
+                    <option value="friend">Friend</option>
+                    <option value="reader">Reader</option><option value="employer">Employer</option>
+                    <option value="other">Other</option>
+                </select>
+            
+            <label name="message" class="contactlabel">Message</label><textarea name="message" placeholder="hey andee ... "></textarea>
+            
+            <input type="submit" class="buttonclick" value="Send">
+        </form>
+    </div>
+</body>
+</html>

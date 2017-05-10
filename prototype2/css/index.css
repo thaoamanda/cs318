@@ -1,0 +1,219 @@
+* {
+    margin: 0; }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10pt; }
+
+.title {
+    font-family: 'Reenie Beanie', cursive;
+    background-color: white;
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 40pt;
+    padding-top: 20px; }
+
+h1 {
+    font-family: 'IM Fell English', serif;
+    color: #615e5e;
+    line-height: 1em;
+    margin-bottom: 0.5em; }
+
+h2 {
+    font-family: 'IM Fell English', serif;
+    color: #615e5e;
+    line-height: 1em;
+    font-size: 14pt; }
+
+a {
+    text-decoration: none; }
+
+ul {
+    list-style: none;
+    display: block; }
+
+a:link {
+    color: black; }
+
+a:hover {
+    color: gainsboro;
+    transition: all 1s; }
+
+nav {
+    position: relative;
+    text-align: center;
+    font-size: 10pt;
+    font-family: 'IM Fell English', serif;
+    word-spacing: 12px;
+    padding-bottom: 10px; }
+
+#container {
+    height: 50%;
+    width: 100%;
+    background-size: 100%;
+    position: absolute; }
+
+#tree {
+    width: 100%;
+    position: absolute; }
+
+#erickson {
+    width: 40em;
+    height: 40em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em; }
+
+#erickson:hover {
+    background-color: #ffffff;
+    opacity: 0.6;
+    transition: all 1s ease; } 
+
+#erickson:not( :hover ){
+    transition: all 1s ease; }
+
+.abouttext {
+    margin: 0 auto;
+    width: 40em;
+    margin-bottom: 3em;
+    line-height: 1.5em;
+    color: dimgrey; }
+
+#stories {
+    columns: 2;
+    margin: 0 auto;
+    width: 60em;
+    margin-bottom: 3em;
+    line-height: 1.5em;
+    padding-top: 5em; }
+
+.storylist {
+    margin-bottom: 1em; }
+
+/* story photos */
+.storyimage {
+    width: 30em; 
+    height: 20em; }
+
+.storyimage:hover {
+    background-color: #ffffff;
+    opacity: 0.6;
+    transition: all 1s ease; } 
+
+.storyimage:not( :hover ){
+    transition: all 1s ease; }
+/* end story photos */
+
+#wix {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 3em;
+    width: 700px; 
+    height: 700px; }
+
+#radiodes {
+    width: 40em; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 3em; }
+
+/*form*/
+.form {
+    display: block;
+    text-align: center;
+    margin-top: 1em; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em; 
+    margin: 10px auto;
+    font: 11px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+    padding: 20px; }
+
+input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px 20px 12px 20px;
+    margin: 10px 0 10px 0;
+    display: inline-block;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-sizing: border-box; }
+
+input[type=submit] {
+    background: gainsboro;
+    width: 100%;
+    color: white;
+    padding: 14px 20px 14px 20px;
+    margin: 5px 0 5px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; }
+
+.contactlabel {
+    font-size: 9pt; }
+
+input[type=submit]:hover {
+    background-color: #f2f2f2;
+    transition: all 1s; }
+
+.form:hover {
+    background-color: #f2f2f2;
+    transition: all 1s; }
+
+input:not( :hover ){
+    transition: all 1s; }
+
+.form:not( :hover ){
+    transition: all 1s; }
+/*form end*/
+
+@media (max-width: 42em) {
+    body {
+        transition: all 1s; 
+    }
+    
+    #aboutblurb {
+      font-size: 14pt; }
+    
+    h2 {
+        font-size: 20pt; }
+    
+    #erickson {
+        width: 25em;
+        height: 25em; }
+    
+    .abouttext {
+        width: 25em; }
+    
+    .form {
+        width: 300pt; }
+    
+    #stories {
+    columns: 1;
+    width: 25em;
+    margin-left: 0; }
+    
+    .storyimage {
+        width: 27em;
+        height: 18em; }
+    
+    #wix {
+    width: 35em;
+    height: 50em; }
+    
+    #radiodes {
+    width: 25em; }
+    
+    .contactlabel {
+    font-size: 12pt; }
+    
+    
+    
+}

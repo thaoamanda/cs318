@@ -2,44 +2,35 @@
 <html>
 <head>
     <title>Andee Erickson</title>
-    <link type="text/css" rel="stylesheet" href="contact.css">
-    <link href="https://fonts.googleapis.com/css?family=Bentham|Lateef|Reenie+Beanie" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/index.css"><link href="https://fonts.googleapis.com/css?family=IM+Fell+English|Open+Sans|Reenie+Beanie" rel="stylesheet">
 </head>
 <body>
     <div class="title">Andee Erickson</div>
     <nav>
-        <a href="index.html">HOME</a>
-        <a href="about.html">ABOUT</a>
-        <a href="written.html">WRITTEN</a>
-        <a href="multimedia.html">MULTIMEDIA</a>
-        <a href="resume.html">RESUME</a>
-        <a href="contact.html">CONTACT</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="written.html">Written</a>
+        <a href="multimedia.html">Multimedia</a>
+        <a href="contact.html">Contact</a>
     </nav>
-    <div class="form"><form action="https://formspree.io/thaoa@uwec.edu"
+    <div class="form">
+        <form action="https://formspree.io/thaoa@uwec.edu"
       method="POST">
-<ul class="form2">
-    <li><label>Full Name</label><input type="text" class="fullname" name="name" placeholder="First and Last"></li>
-    <li>
-        <label>Email</label>
-        <input type="email" class="email" placeholder="email@email.com" name="email">
-    </li>
-    <li>
-        <label>Who are you?</label>
-        <select class="who" name="who">
-        <option class="friend">Friend</option>
-        <option class="stranger">Stranger</option>
-        <option class="employer">Employer</option>
-        <option class="other">Other</option>
-        </select>
-    </li>
-    <li>
-        <label>Your Message</label>
-        <textarea class="message" name="message" placeholder="Hello Andee ..."></textarea>
-    </li>
-    <li>
-        <input type="submit" class="buttonclick" value="Send">
-    </li>
-</ul>
-        </form></div>
+            <label name="name" class="contactlabel"> Name</label><input type="text" id="fname" name="name" placeholder="name">
+            
+            <label name="email" class="contactlabel">Email</label><input type="email" name="email" placeholder="email ">
+            
+            <label for="relationship" class="contactlabel">Relationship</label>
+                <select id="country" name="country">
+                    <option value="friend">Friend</option>
+                    <option value="reader">Reader</option><option value="employer">Employer</option>
+                    <option value="other">Other</option>
+                </select>
+            
+            <label name="message" class="contactlabel">Message</label><textarea name="message" placeholder="hey andee ... "></textarea>
+            
+            <input type="submit" class="buttonclick" value="Send">
+        </form>
+    </div>
 </body>
 </html>
